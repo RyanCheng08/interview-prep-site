@@ -1,0 +1,15 @@
+{
+  "name": "餐厅服务面试准备",
+  "short_name": "面试准备",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fffaf2",
+  "theme_color": "#1e6b5c",
+  "icons": [
+    {
+      "src": "assets/cafeteria.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
