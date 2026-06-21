@@ -237,18 +237,250 @@ const keywords = [
   "基础英语沟通"
 ];
 
+const cafeteriaEnglishRoadmap = [
+  {
+    week: "第 1 周",
+    title: "建立基础声音和核心句子",
+    goal: "不怕开口，能说最基础的礼貌用语。",
+    tasks: ["早上 10 分钟：听句子。", "中午 10 分钟：跟读句子。", "晚上 10 分钟：不看文字说出来。"],
+    acceptance: "能把 10 句话大声说出来，不需要看中文意思。",
+    groups: [
+      {
+        title: "每天练这些句子",
+        items: [
+          { en: "Hello.", zh: "你好。" },
+          { en: "Good morning.", zh: "早上好。" },
+          { en: "Thank you.", zh: "谢谢。" },
+          { en: "You're welcome.", zh: "不客气。" },
+          { en: "Sorry.", zh: "不好意思 / 对不起。" },
+          { en: "No problem.", zh: "没问题。" },
+          { en: "One moment, please.", zh: "请稍等。" },
+          { en: "Here you are.", zh: "给你。" },
+          { en: "Okay.", zh: "好的。" },
+          { en: "Please point to it.", zh: "请指一下。" }
+        ]
+      }
+    ]
+  },
+  {
+    week: "第 2 周",
+    title: "学会问“你要什么”",
+    goal: "能主动服务学生或老师。",
+    tasks: ["看到家里的食物或物品，就用英语问一遍。", "每天至少说 5 次 Would you like ...?"],
+    acceptance: "能用英语问别人想要什么，并能说出 5 种以上食物名称。",
+    groups: [
+      {
+        title: "主动服务句",
+        items: [
+          { en: "What would you like?", zh: "你想要什么？" },
+          { en: "Would you like rice?", zh: "你要米饭吗？" },
+          { en: "Would you like noodles?", zh: "你要面条吗？" },
+          { en: "Would you like chicken?", zh: "你要鸡肉吗？" },
+          { en: "Would you like vegetables?", zh: "你要蔬菜吗？" },
+          { en: "Would you like soup?", zh: "你要汤吗？" },
+          { en: "Anything else?", zh: "还要别的吗？" },
+          { en: "Large or small?", zh: "大份还是小份？" }
+        ]
+      }
+    ]
+  },
+  {
+    week: "第 3 周",
+    title: "掌握餐厅食物和餐具词汇",
+    goal: "听到常见食物词时能反应过来。",
+    tasks: ["每天写 5 个单词，贴在厨房或餐桌附近。", "看到实物就说英文，不只背中文。"],
+    acceptance: "能看着餐厅里的东西说出英文，至少掌握 15 个常用词。",
+    groups: [
+      {
+        title: "食物和餐具词",
+        items: [
+          { en: "rice", zh: "米饭" },
+          { en: "noodles", zh: "面条" },
+          { en: "chicken", zh: "鸡肉" },
+          { en: "beef", zh: "牛肉" },
+          { en: "pork", zh: "猪肉" },
+          { en: "fish", zh: "鱼" },
+          { en: "egg", zh: "鸡蛋" },
+          { en: "vegetables", zh: "蔬菜" },
+          { en: "soup", zh: "汤" },
+          { en: "water", zh: "水" },
+          { en: "fruit", zh: "水果" },
+          { en: "spoon", zh: "勺子" },
+          { en: "fork", zh: "叉子" },
+          { en: "chopsticks", zh: "筷子" },
+          { en: "plate", zh: "盘子" },
+          { en: "bowl", zh: "碗" },
+          { en: "napkin", zh: "纸巾" }
+        ]
+      }
+    ]
+  },
+  {
+    week: "第 4 周",
+    title: "练习完整点餐对话",
+    goal: "能完成一次简单服务。",
+    tasks: ["每天读 3 组对话。", "自己扮演餐厅员工，把员工台词单独说出来。"],
+    acceptance: "能把 3 个对话读熟，并且可以自己扮演餐厅员工说出来。",
+    groups: [
+      {
+        title: "对话 1：普通点餐",
+        items: [
+          { role: "A", en: "Hello. What would you like?", zh: "你好。你想要什么？" },
+          { role: "B", en: "Rice and chicken, please.", zh: "请给我米饭和鸡肉。" },
+          { role: "A", en: "Would you like vegetables?", zh: "你要蔬菜吗？" },
+          { role: "B", en: "Yes, please.", zh: "好的，请给我。" },
+          { role: "A", en: "Here you are.", zh: "给你。" },
+          { role: "B", en: "Thank you.", zh: "谢谢。" },
+          { role: "A", en: "You're welcome.", zh: "不客气。" }
+        ]
+      },
+      {
+        title: "对话 2：不要某样东西",
+        items: [
+          { role: "A", en: "Would you like soup?", zh: "你要汤吗？" },
+          { role: "B", en: "No, thank you.", zh: "不用了，谢谢。" },
+          { role: "A", en: "Okay. Anything else?", zh: "好的。还要别的吗？" },
+          { role: "B", en: "Fruit, please.", zh: "请给我水果。" },
+          { role: "A", en: "Here you are.", zh: "给你。" }
+        ]
+      },
+      {
+        title: "对话 3：听不懂时",
+        items: [
+          { role: "A", en: "Can I have more chicken, please?", zh: "可以再给我一些鸡肉吗？" },
+          { role: "B", en: "Sorry, could you repeat that?", zh: "不好意思，请再说一遍。" },
+          { role: "A", en: "More chicken, please.", zh: "请再给我一些鸡肉。" },
+          { role: "B", en: "Okay. Here you are.", zh: "好的。给你。" }
+        ]
+      }
+    ]
+  },
+  {
+    week: "第 5 周",
+    title: "专门训练“听不懂怎么办”",
+    goal: "遇到听不懂时不会慌。",
+    tasks: ["把这 5 句背到脱口而出。", "让别人随便说一句英文，你马上用其中一句回应。"],
+    acceptance: "别人说英语你没听懂时，能马上说 Sorry, could you repeat that?",
+    groups: [
+      {
+        title: "救场短句",
+        items: [
+          { en: "Sorry, could you repeat that?", zh: "不好意思，请再说一遍。" },
+          { en: "Please speak slowly.", zh: "请说慢一点。" },
+          { en: "I don't understand.", zh: "我不明白。" },
+          { en: "Please point to it.", zh: "请指一下。" },
+          { en: "I'll ask my colleague.", zh: "我帮你问一下同事。" }
+        ]
+      }
+    ]
+  },
+  {
+    week: "第 6 周",
+    title: "加入工作现场常用表达",
+    goal: "能处理排队、餐盘、卫生、简单提醒。",
+    tasks: ["每天选 3 句放进真实动作里练。", "重点练小心烫、请排队、今天没有了。"],
+    acceptance: "能用英语做简单提醒，比如“小心烫”“请排队”“今天没有了”。",
+    groups: [
+      {
+        title: "现场提醒句",
+        items: [
+          { en: "Please wait in line.", zh: "请排队。" },
+          { en: "Be careful. It's hot.", zh: "小心，很烫。" },
+          { en: "Please take a tray.", zh: "请拿一个餐盘。" },
+          { en: "Please return your plate.", zh: "请归还餐盘。" },
+          { en: "The soup is over there.", zh: "汤在那边。" },
+          { en: "The spoons are here.", zh: "勺子在这里。" },
+          { en: "We don't have that today.", zh: "今天没有那个。" },
+          { en: "It's finished.", zh: "已经没有了。" }
+        ]
+      }
+    ]
+  },
+  {
+    week: "第 7 周",
+    title: "准备面试英语",
+    goal: "能用简单英语介绍自己。",
+    tasks: ["每天背 30 秒英文自我介绍。", "把 3 个常见问题问答练到自然。"],
+    acceptance: "能背熟 30 秒英文自我介绍。",
+    groups: [
+      {
+        title: "30 秒自我介绍",
+        items: [
+          { en: "Hello, my name is ____.", zh: "你好，我叫____。" },
+          { en: "I want to work in the school cafeteria.", zh: "我想在学校餐厅工作。" },
+          { en: "I can work hard.", zh: "我能吃苦。" },
+          { en: "I am friendly and careful.", zh: "我友好，也很细心。" },
+          { en: "My English is basic, but I am learning every day.", zh: "我的英语是基础水平，但我每天都在学习。" },
+          { en: "Thank you.", zh: "谢谢。" }
+        ]
+      },
+      {
+        title: "常见面试问答",
+        items: [
+          { role: "Q", en: "Can you speak English?", zh: "你会说英语吗？" },
+          {
+            role: "A",
+            en: "My English is basic, but I can use simple English for cafeteria work.",
+            zh: "我的英语是基础水平，但我可以用简单英语做餐厅工作。"
+          },
+          { role: "Q", en: "Do you have cafeteria experience?", zh: "你有餐厅经验吗？" },
+          { role: "A", en: "Yes, I have experience in food service.", zh: "有，我有餐饮服务经验。" },
+          { role: "A", en: "Not yet, but I am willing to learn.", zh: "目前还没有，但我愿意学习。" },
+          { role: "Q", en: "Can you work with children?", zh: "你能和孩子相处工作吗？" },
+          { role: "A", en: "Yes. I am patient and friendly.", zh: "可以。我有耐心，也很友好。" }
+        ]
+      }
+    ]
+  },
+  {
+    week: "第 8 周",
+    title: "模拟上岗训练",
+    goal: "像真实工作一样练习。",
+    tasks: ["每天做 10 分钟模拟。", "可以让家人或朋友扮演学生，也可以自己录音复盘。"],
+    acceptance: "能连续完成 5 次简单点餐服务，不中断、不紧张。",
+    groups: [
+      {
+        title: "模拟服务对话",
+        items: [
+          { role: "Student", en: "Rice and chicken, please.", zh: "请给我米饭和鸡肉。" },
+          { role: "Staff", en: "Sure. Would you like vegetables?", zh: "好的。你要蔬菜吗？" },
+          { role: "Student", en: "No, thank you.", zh: "不用了，谢谢。" },
+          { role: "Staff", en: "Okay. Here you are.", zh: "好的。给你。" }
+        ]
+      },
+      {
+        title: "马上开始的 10 句",
+        items: [
+          { en: "Hello.", zh: "你好。" },
+          { en: "What would you like?", zh: "你想要什么？" },
+          { en: "Would you like rice?", zh: "你要米饭吗？" },
+          { en: "Would you like chicken?", zh: "你要鸡肉吗？" },
+          { en: "Anything else?", zh: "还要别的吗？" },
+          { en: "Here you are.", zh: "给你。" },
+          { en: "Thank you.", zh: "谢谢。" },
+          { en: "Sorry, could you repeat that?", zh: "不好意思，请再说一遍。" },
+          { en: "Please speak slowly.", zh: "请说慢一点。" },
+          { en: "Please point to it.", zh: "请指一下。" }
+        ]
+      }
+    ]
+  }
+];
+
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 
 const state = {
   filter: "all",
   mastered: new Set(JSON.parse(localStorage.getItem("masteredQas") || "[]")),
-  checks: new Set(JSON.parse(localStorage.getItem("prepChecks") || "[]"))
+  checks: new Set(JSON.parse(localStorage.getItem("prepChecks") || "[]")),
+  englishChecks: new Set(JSON.parse(localStorage.getItem("englishChecks") || "[]"))
 };
 
 function saveState() {
   localStorage.setItem("masteredQas", JSON.stringify([...state.mastered]));
   localStorage.setItem("prepChecks", JSON.stringify([...state.checks]));
+  localStorage.setItem("englishChecks", JSON.stringify([...state.englishChecks]));
 }
 
 function textToParagraphs(text) {
@@ -384,9 +616,98 @@ function renderKeywords() {
   $("#keywordCloud").innerHTML = keywords.map((item) => `<span>${item}</span>`).join("");
 }
 
+function renderEnglishRoadmap() {
+  const container = $("#englishRoadmap");
+  if (!container) return;
+
+  container.innerHTML = cafeteriaEnglishRoadmap
+    .map((week, index) => {
+      const id = `english-week-${index}`;
+      const checked = state.englishChecks.has(id);
+      const searchText = [
+        week.week,
+        week.title,
+        week.goal,
+        week.tasks.join(" "),
+        week.acceptance,
+        week.groups
+          .map((group) => `${group.title} ${group.items.map((item) => `${item.en} ${item.zh}`).join(" ")}`)
+          .join(" ")
+      ].join(" ");
+
+      const groups = week.groups
+        .map(
+          (group) => `
+          <section class="english-group">
+            <h4>${group.title}</h4>
+            <div class="listen-grid">
+              ${group.items
+                .map(
+                  (item) => `
+                  <button class="listen-card" type="button" data-speak="${escapeAttribute(item.en)}" aria-label="播放 ${escapeAttribute(item.en)}">
+                    ${item.role ? `<span class="listen-card__role">${item.role}</span>` : ""}
+                    <span class="listen-card__en">${item.en}</span>
+                    <span class="listen-card__zh">${item.zh}</span>
+                    <span class="listen-card__hint">点击听发音</span>
+                  </button>
+                `
+                )
+                .join("")}
+            </div>
+          </section>
+        `
+        )
+        .join("");
+
+      return `
+        <article class="panel english-week searchable" data-search="${escapeAttribute(searchText)}">
+          <div class="english-week__head">
+            <div>
+              <span class="english-week__kicker">${week.week}</span>
+              <h3>${week.title}</h3>
+            </div>
+            <label class="week-check">
+              <input type="checkbox" data-english-check="${id}" ${checked ? "checked" : ""} />
+              <span>${checked ? "已完成" : "完成"}</span>
+            </label>
+          </div>
+          <p><strong>目标：</strong>${week.goal}</p>
+          <div class="task-strip">
+            ${week.tasks.map((task) => `<span>${task}</span>`).join("")}
+          </div>
+          ${groups}
+          <p class="acceptance"><strong>验收标准：</strong>${week.acceptance}</p>
+        </article>
+      `;
+    })
+    .join("");
+}
+
+function speakEnglish(text) {
+  if (!("speechSynthesis" in window) || typeof SpeechSynthesisUtterance === "undefined") {
+    showToast("当前浏览器不支持语音播放");
+    return;
+  }
+
+  window.speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = "en-US";
+  utterance.rate = text.split(/\s+/).length <= 2 ? 0.82 : 0.88;
+  utterance.pitch = 1;
+
+  const voices = window.speechSynthesis.getVoices();
+  const englishVoice =
+    voices.find((voice) => /^en[-_]/i.test(voice.lang) && /US|United States|Samantha|Jenny|Google/i.test(`${voice.name} ${voice.lang}`)) ||
+    voices.find((voice) => /^en[-_]/i.test(voice.lang));
+  if (englishVoice) utterance.voice = englishVoice;
+
+  window.speechSynthesis.speak(utterance);
+  showToast(`正在播放：${text}`);
+}
+
 function updateProgress() {
-  const total = qaItems.length + plan.reduce((sum, day) => sum + day.items.length, 0);
-  const done = state.mastered.size + state.checks.size;
+  const total = qaItems.length + plan.reduce((sum, day) => sum + day.items.length, 0) + cafeteriaEnglishRoadmap.length;
+  const done = state.mastered.size + state.checks.size + state.englishChecks.size;
   const value = Math.round((done / total) * 100);
   $("#progressValue").textContent = `${value}%`;
   $("#progressBar").style.width = `${value}%`;
@@ -442,6 +763,12 @@ function bindEvents() {
       return;
     }
 
+    const speak = event.target.closest("[data-speak]");
+    if (speak) {
+      speakEnglish(speak.dataset.speak);
+      return;
+    }
+
     const master = event.target.closest("[data-master]");
     if (master) {
       const id = master.dataset.master;
@@ -469,6 +796,20 @@ function bindEvents() {
     updateProgress();
   });
 
+  document.addEventListener("change", (event) => {
+    const check = event.target.closest("[data-english-check]");
+    if (!check) return;
+    if (check.checked) {
+      state.englishChecks.add(check.dataset.englishCheck);
+    } else {
+      state.englishChecks.delete(check.dataset.englishCheck);
+    }
+    const label = check.closest(".week-check")?.querySelector("span");
+    if (label) label.textContent = check.checked ? "已完成" : "完成";
+    saveState();
+    updateProgress();
+  });
+
   $("#searchInput").addEventListener("input", applyFilters);
 }
 
@@ -477,6 +818,7 @@ renderScripts();
 renderPlan();
 renderReverseQuestions();
 renderKeywords();
+renderEnglishRoadmap();
 bindEvents();
 updateProgress();
 applyFilters();
